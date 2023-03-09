@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final Mi CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/Estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+    <nav>
+        <ul>
+            <a href="#datos_personales">Datos Personales</a>
+            <a href="#experiencia">Experiencia</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#contacto">Contactar</a>
+        </ul>
+    </nav>
+   
+    </header>
+    <main>
+        <section id="datos_personales">
+            <img id="foto" src="Images/59.jpg">
+            <h1>Mathew Rivera</h1>
+            <h2>Desarrollador FrontEnd Jr.</h2>
+        </section>
+        <section id="experiencia">
+            <h2>Experiencia:</h2>
+            <div class="lista-experiencias">
+                <div class="detalle-experiencias">
+                    <img src="Images/experiencia1.png">
+                    <h3>Desarrollo HTML para profesionales docentes</h3>
+                    <p>Páginas personales para docentes que dictan clases de apoyo en asociaciones barriales</p>
+                    <a href="https://buenosaires.gob.ar/educacion/estudiantes/red-comunitaria-de-apoyo-escolar">Ver proyecto</a>
+                </div>
+                <div class="detalle-experiencias">
+                    <img src="Images/experiencia2.jfif">
+                    <h3>Programación en JAVA</h3>
+                    <p>Pequeñas aplicaciones para Asociaciones de Jubilados</p>
+                    <a href="https://www.pami.org.ar/">Ver proyecto</a>
+                </div>
+                <div class="detalle-experiencias">
+                    <img src="Images/experiencia3.png">
+                    <h3>Charlas sobre desarrollo Frontend</h3>
+                    <p>Charlas sobre desarrollo Frontend a alumnos de los últimos años del colegio secundario</p>
+                    <a href="https://www.unl.edu.ar/expocarreras/">Ver proyecto</a>
+                </div>
+            </div>
+        </section>
+        <section id="habilidades">
+            <h2>Habilidades:</h2>
+            <div class="lista-habilidades">
+                <div class="detalle-habilidades">
+                    <img src="Images/habilidades1.jfif">
+                    <h3>Manejo de Lenguaje HTML</h3>
+                </div>
+                <div class="detalle-habilidades">
+                    <img src="Images/habilidades2.jfif">
+                    <h3>Manejo de Lenguaje Java</h3>
+                </div>
+                <div class="detalle-habilidades">
+                    <img src="Images/habilidades3.jfif">
+                    <h3>Manejo de Lenguaje Python</h3>
+                </div>
+            </div>
+        </section>
+        <section id="contacto">
+            <h2>Contactar</h2>
+            <form action="https://formsubmit.co/your@email.com" method="POST">
+                <div>
+                    <lbel>Nombre</lbel>
+                    <input type="text" name= "nombre" id="nombre" class="nombre" placeholder="Escriba su nombre"> 
+                    
+                </div>
+                <div>
+                    <lbel>E-mail</lbel>
+                    <input type="email" name="email" id="email" class="email" placeholder="alguien@dominio.com">
+                </div>
+                <div>
+                    <lbel>Asunto</lbel>
+                    <input type="text" name="asunto" id="asunto" class="asunto">
+                </div>
+                <div>
+                    <lbel>Mensaje</lbel>
+                    <textarea name="mensaje" id="mensaje" class="mensaje"></textarea>
+                </div>
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+                <input type="hidden" name="_captcha" value="false">
+                <button class="btn-enviar">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+<ul>
+    <li>
+        <span class="icono-contacto"><i class="fa fa-phone" aria-hidden="true"></i></span>
+        <span class="texto-contacto">(603) 710-3851</span>
+    </li>
+    <li>
+        <span class="icono-contacto"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+        <span class="texto-contacto">5048 Avondale Ave</span>
+    </li>
+    <li>
+        <span class="icono-contacto"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+        <span class="texto-contacto">mat_rivera@mail.com</span>
+    </li>
+    <li>
+        <span class="icono-contacto"><i class="fa fa-globe" aria-hidden="true"></i></span>
+        <span class="texto-contacto">www.mathewrivera_desarrolloweb.com</span>
+    </li>
+</ul>
+    </footer>
+    <script>
+        
+    </script>
+</body>
+</html>
